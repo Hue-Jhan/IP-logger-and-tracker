@@ -67,7 +67,7 @@ logging.getLogger().setLevel(logging.CRITICAL)
 server = HTTPServer(("localhost", 0), HelloHandler)
 port = server.server_address[1]
 public_url = ngrok.connect(port)
-print(f"ngrok tunnel '{public_url}' -> 'http://localhost:{port}'")
+print(f" {public_url} ")
 
 try:
     server.serve_forever()
