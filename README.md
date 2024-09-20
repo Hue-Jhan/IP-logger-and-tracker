@@ -6,4 +6,4 @@ This simple program uses ngrok port forwarding to establish a simple https tunne
 
 You can choose to redirect the user to any website, i set up some lines of code to redirect users to a funny gif and commented them. Make sure that only one between the 2 responses are uncommented (im talking about the 200, simple html, and the 302, redirect response), or else there might be issues, you can even decide to use both but adding delays and modifying some stuff.
 
-<img align="left" src="iploggerpy.png" width="700" />
+<img align="left" src="iploggerpy.png" width="800" />
