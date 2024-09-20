@@ -6,4 +6,10 @@ This simple program uses ngrok port forwarding to establish a simple https tunne
 
 You can customize the http page for example to make it a phishing website or anything you want, otherwise you can choose to redirect the user to any website, i set up some lines of code to redirect users to a funny gif and commented them. Make sure that only one between the 2 responses are uncommented (im talking about the 200, simple html, and the 302, redirect response), or else there might be issues, you can even decide to use both but adding delays and modifying some stuff.
 
-<img align="left" src="iploggerpy.png" width="800" />
+<img align="left" src="iploggerpy.png" width="900" />
+
+
+
+
+
+I made an improved version of this ip logger in my IP Multitool, you can find it here [IP Info Multitool](https://github.com/Hue-Jhan/IP-info-multitool)
